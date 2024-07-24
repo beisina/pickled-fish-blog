@@ -1,18 +1,28 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Node modules
+**/node_modules/**
 
-# Other files and folders
-.settings/
+# Build files
+docs-shared/lib/
+packages/*/lib/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Vuepress Cache
+/src/.vuepress/.cache/
+# Vuepress Temp
+/src/.vuepress/.temp/
+# Vuepress Output
+dist/
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# npm config
+.npmrc
+
+# Typescript build info
+*.tsbuildinfo
+
+# Coverage Files
+coverage/
+
+# macOS
+.DS_Store
+
+# IDEA
+.idea/
