@@ -6,9 +6,9 @@ docs-shared/lib/
 packages/*/lib/
 
 # Vuepress Cache
-**/.vuepress/.cache/**
+/src/.vuepress/.cache/
 # Vuepress Temp
-**/.vuepress/.temp/**
+/src/.vuepress/.temp/
 # Vuepress Output
 dist/
 
