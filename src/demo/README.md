@@ -1,9 +1,8 @@
 ---
-title: 主要功能与配置演示
+title: 学习指南
 index: false
 icon: laptop-code
-category:
-  - 使用指南
+category: 使用指南
 ---
 
 <Catalog />
