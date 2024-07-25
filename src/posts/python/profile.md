@@ -1,0 +1,21 @@
+---
+title: python简介
+icon: pen-to-square
+date: 2022-01-09
+category: python
+order: 1
+tag:
+  - python
+---
+
+## 什么是Python
+
+Python 是一门易于学习、功能强大的编程语言。它提供了高效的高级数据结构，还能简单有效地面向对象编程。 Python
+优雅的语法和动态类型以及解释型语言的本质，使它成为多数平台上写脚本和快速开发应用的理想语言。
+
+## 相关链接
+
+[Python官网](https://www.python.org/)上免费提供了 Python 解释器和扩展的标准库，包括源码和适用于各操作系统的机器码形式，并可自由地分发。
+
+Python官网还包含许多免费的第三方 Python 模块、程序和工具发布包及文档链接。
+

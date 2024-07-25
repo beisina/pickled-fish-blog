@@ -16,12 +16,12 @@ export default navbar([
                     {
                         text: "python介绍",
                         icon: "pen-to-square",
-                        link: "1"
+                        link: "profile"
                     },
                     {
                         text: "python安装",
                         icon: "pen-to-square",
-                        link: "2"
+                        link: "environment-construction"
                     },
                 ],
             },
@@ -45,16 +45,8 @@ export default navbar([
         prefix: "/posts/",
         children: [
             {
-                text: "苹果",
-                icon: "pen-to-square",
-                prefix: "python/",
-                children: [
-                    {
-                        text: "苹果1",
-                        icon: "pen-to-square",
-                        link: "1"
-                    }
-                ],
+                text: "介绍",
+                link: "intro",
             }
         ]
     },

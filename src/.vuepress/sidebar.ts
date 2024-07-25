@@ -4,8 +4,8 @@ export default sidebar({
     "/": [
         "",
         {
-            text: "如何使用",
-            icon: "laptop-code",
+            text: "必看",
+            icon: "star",
             prefix: "demo/",
             link: "demo/",
             children: "structure",
@@ -16,11 +16,6 @@ export default sidebar({
             prefix: "posts/",
             children: "structure",
         },
-        "intro",
-        {
-            text: "幻灯片",
-            icon: "person-chalkboard",
-            link: "https://plugin-md-enhance.vuejs.press/zh/guide/content/revealjs/demo.html",
-        }
+        "intro"
     ]
 });
