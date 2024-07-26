@@ -1,6 +1,5 @@
 ---
 title: python简介
-icon: pen-to-square
 date: 2022-01-09
 category: python
 order: 1
