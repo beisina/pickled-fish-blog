@@ -19,15 +19,16 @@ export default sidebar({
                     icon: "layer-group",
                     children: []
                 },
-                "base/profile",
-                "base/environment-construction",
+                "profile",
+                "environment-construction",
                 {
                     text: "数据类型",
                     icon: "list",
                     children: []
                 },
-                "data-type/string",
-                "data-type/bool-and-numbers",
+                "string",
+                "bool-and-numbers",
+                "operators-and-prioritization"
             ],
             collapsible: true,
             expanded: false,
