@@ -2,7 +2,6 @@
 title: python简介
 date: 2022-01-09
 category: python
-order: 1
 tag:
   - python
 ---

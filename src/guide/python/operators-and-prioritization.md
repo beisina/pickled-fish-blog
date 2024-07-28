@@ -2,7 +2,6 @@
 title: 运算符和优先级
 date: 2022-01-09
 category: python
-order: 5
 tag:
   - python
 ---

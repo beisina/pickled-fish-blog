@@ -2,7 +2,6 @@
 title: 布尔值和数字
 date: 2022-01-10
 category: python
-order: 4
 tag:
   - python
 ---

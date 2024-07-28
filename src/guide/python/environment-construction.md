@@ -2,7 +2,6 @@
 title: python环境搭建
 date: 2022-01-10
 category: python
-order: 2
 tag:
   - python
 ---
