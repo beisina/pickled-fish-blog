@@ -2,16 +2,11 @@ import {navbar} from "vuepress-theme-hope";
 
 export default navbar([
     "/",
-    "/guide/",
+    "/guide",
     {
         text: "杂七杂八",
         icon: "bookmark",
         prefix: "/posts/",
-        children: [
-            {
-                text: "介绍",
-                link: "intro",
-            }
-        ]
+        children: []
     },
 ]);
