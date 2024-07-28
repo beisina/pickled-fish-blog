@@ -15,8 +15,6 @@ export default hopeTheme({
 
     logo: "assets/avatar.png",
 
-    repo: "vuepress-theme-hope/vuepress-theme-hope",
-
     docsDir: "src",
 
     // 导航栏
@@ -29,28 +27,6 @@ export default hopeTheme({
     footer: "<a href=\"https://beian.miit.gov.cn/\" target=\"_blank\">湘ICP备2023009439号</a>",
     displayFooter: true,
 
-    // 博客相关
-    blog: {
-        description: "一个萌新",
-        intro: "/intro.html",
-        medias: {
-            Email: "mailto:pickledfishpot@qq.com",
-            GitHub: "https://github.com/rumou",
-            Gitee: "https://gitee.com/rumou",
-            VuePressThemeHope: {
-                icon: "https://theme-hope-assets.vuejs.press/logo.svg",
-                link: "https://theme-hope.vuejs.press",
-            },
-        },
-    },
-
-    // 加密配置
-    encrypt: {
-        config: {
-            "/demo/encrypt.html": ["2333"],
-        },
-    },
-    
     // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
     hotReload: true,
 
