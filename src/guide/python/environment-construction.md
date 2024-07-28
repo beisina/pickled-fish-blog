@@ -1,9 +1,7 @@
 ---
 title: python环境搭建
-icon: pen-to-square
 date: 2022-01-10
 category: python
-order: 2
 tag:
   - python
 ---
