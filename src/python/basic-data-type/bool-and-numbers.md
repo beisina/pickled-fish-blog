@@ -1,6 +1,6 @@
 ---
 title: 布尔值和数字
-date: 2022-01-10
+date: 2024-07-28
 category: python
 tag:
   - python

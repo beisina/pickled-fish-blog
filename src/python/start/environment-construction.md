@@ -1,9 +1,10 @@
 ---
-title: python环境搭建
-date: 2022-01-10
+title: 环境搭建
+date: 2024-07-27
 category: python
 tag:
   - python
+next: /python/basic-data-type/bool-and-numbers
 ---
 
 ## Windows系统Python下载与安装
