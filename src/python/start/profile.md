@@ -1,6 +1,6 @@
 ---
-title: python简介
-date: 2022-01-09
+title: 简介
+date: 2024-07-27
 category: python
 tag:
   - python
