@@ -40,6 +40,18 @@ export default sidebar({
                         icon: "fa-solid fa-bars-progress",
                         link: "statement"
                     },
+                    {
+                        text: "函数",
+                        icon: "fa-solid fa-f",
+                        prefix: "function/",
+                        collapsible: true,
+                        expanded: false,
+                        children: [
+                            "function-and-variable-transfer",
+                            "higher-order-function",
+                            "decorator"
+                        ]
+                    },
                 ],
                 collapsible: true,
                 expanded: false,
@@ -55,7 +67,31 @@ export default sidebar({
                 icon: "fa-solid fa-database",
                 prefix: "database",
                 children: []
-            }
+            },
+            {
+                text: "中间件",
+                icon: "/assets/icon/middleware.svg",
+                prefix: "database",
+                children: []
+            },
+            {
+                text: "linux",
+                icon: "fa-brands fa-linux",
+                prefix: "kubernetes",
+                children: []
+            },
+            {
+                text: "docker",
+                icon: "fa-brands fa-docker",
+                prefix: "kubernetes",
+                children: []
+            },
+            {
+                text: "kubernetes",
+                icon: "/assets/icon/kubernetes.svg",
+                prefix: "kubernetes",
+                children: []
+            },
         ]
     }
 );

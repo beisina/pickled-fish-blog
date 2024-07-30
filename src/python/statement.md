@@ -4,6 +4,7 @@ date: 2024-07-29
 category: python
 tag:
   - python
+prev: /python/basic-data-type/dict
 next: /python/basic-data-type/bool-and-numbers
 ---
 
