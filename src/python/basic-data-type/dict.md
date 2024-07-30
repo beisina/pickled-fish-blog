@@ -4,6 +4,7 @@ date: 2024-07-28
 category: python
 tag:
   - python
+next: /python/function/function-and-variable-transfer
 ---
 
 ## 概念
