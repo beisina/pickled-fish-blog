@@ -7,6 +7,8 @@ export default sidebar({
                 text: "python",
                 icon: "fa-brands fa-python",
                 prefix: "python",
+                collapsible: true,
+                expanded: false,
                 children: [
                     {
                         text: "基础",
@@ -52,9 +54,7 @@ export default sidebar({
                             "decorator"
                         ]
                     },
-                ],
-                collapsible: true,
-                expanded: false,
+                ]
             },
             {
                 text: "golang",
@@ -75,7 +75,7 @@ export default sidebar({
                 children: []
             },
             {
-                text: "linux",
+                text: "Linux",
                 icon: "fa-brands fa-linux",
                 prefix: "kubernetes",
                 children: []
@@ -90,7 +90,20 @@ export default sidebar({
                 text: "kubernetes",
                 icon: "/assets/icon/kubernetes.svg",
                 prefix: "kubernetes",
-                children: []
+                collapsible: true,
+                expanded: false,
+                children: [
+                    {
+                        text: "部署文档",
+                        prefix: "deployment/",
+                        collapsible: true,
+                        expanded: false,
+                        children: [
+                            "kubernetes-1-23-cluster-setup",
+                            "kubernetes-1-28-cluster-setup"
+                        ]
+                    },
+                ]
             },
         ]
     }
