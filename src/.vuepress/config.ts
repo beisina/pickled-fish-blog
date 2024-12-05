@@ -13,4 +13,6 @@ export default defineUserConfig({
 
   // 和 PWA 一起启用
   // shouldPrefetch: false,
+  host: 'localhost', // ip
+  port: 8080, //端口号
 });
