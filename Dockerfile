@@ -14,8 +14,8 @@ RUN pnpm docs:build
 
 FROM nginx:alpine
 
-COPY --from=builder /app/src/.vuepress/dist /var/www/html
+COPY --from=builder /app/src/.vuepress/dist /usr/share/nginx/html
 
-EXPOSE 10080
+EXPOSE 80
 
 CMD ["nginx", "-g", "daemon off;"]
