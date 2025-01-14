@@ -53,9 +53,6 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
-      - name: Print extracted tags
-        run: echo ${{ steps.meta.outputs.labels }}
-
       - name: Deploy to server
         uses: appleboy/ssh-action@v1.2.0
         with:
@@ -66,6 +63,6 @@ jobs:
           script: |
             #!/usr/bin/env bash
             set -e
-            docker pull ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ steps.meta.outputs.tags }}
+            docker pull ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.ref }}
             docker compose -f /home/github/pickled-fish-blog-compose.yaml down
             docker compose -f /home/github/pickled-fish-blog-compose.yaml up -d
