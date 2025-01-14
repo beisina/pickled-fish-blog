@@ -63,6 +63,6 @@ jobs:
           script: |
             #!/usr/bin/env bash
             set -e
-            docker pull ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.ref }}
+            docker pull ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.REF_NAME }}
             docker compose -f /home/github/pickled-fish-blog-compose.yaml down
             docker compose -f /home/github/pickled-fish-blog-compose.yaml up -d
