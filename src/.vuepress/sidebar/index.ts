@@ -51,7 +51,8 @@ export default sidebar({
                         children: [
                             "function-and-variable-transfer",
                             "higher-order-function",
-                            "decorator"
+                            "decorator",
+                            "action-scope",
                         ]
                     },
                 ]
